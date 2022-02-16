@@ -1,9 +1,44 @@
 
+Download Makdown: https://www.markdownguide.org/
+
 Link para download do Git: https://git-scm.com/download/win
 
 Download GitHub: https://desktop.github.com/
+
+
 O Git Bash é um terminal extendido para organizar os arquivos do Git.
+FUNÇÕES BÁSICAS no CLI (Git Bash)
+- ctlr+L: limpa a tela do terminal Git Bash
+- ls: lista arquivos da pasta local
+
+PASSO A PASSO CREATE A NEW REPOSITORY
+1- logar na página do GitHub
+2- canto superior direito clicar em "Create a new repository"
+3- dar nome ao novo repositório, breve descrição, definir se será pública ou privada, finalizar em "create repository".
+4- algumas alterações de arquivos podem ser realizadas diretamente da plataforma do GitHub.
+5- arquivo README.md devidamente preenchido, fornece informações importantes sobre o projeto em desenvolvimento. 
+6- toda alteração precisa ser "commitada" para fazer parte efetida do repositório. Por isso, deve-se teclar "Commit".
+
+CLONAR REPOSITÓRIO PARA PASTA LOCAL
+1- Na página do GitHub, dentro do projeto, no canto superior direito, opção "Code", 
+2- Selecionar o tipo de segurança vigente dentro da opção "Clone" e copiar o link mostrado abaixo.
+
+3- Dentro de uma pasta predefinida no S.O., pressione botão direito e opção "Git Bash". Será aberto o terminal do Git.
+4- Digitar "git clone" e "colar" a linha copiada no GitHub.
+5- Inserir senha, se necessário.
+6- Teclar "Enter".
+
+ENVIAR DADOS/ALTERAÇÕES DA PASTA LOCAL PARA O REPOSITÓRIO DO GITHUB
+1- Dentro do terminal do Git Bash digitar "git status". Identificará pastas e arquivos a serem transferidos.
+2- "git add ." ou "git add -a" adicionará todos os arquivos ao CONTROLE DE VERSÃO LOCAL.
+3- "git commit -m "mensagem relevante e coerente da principal alteração", fará com que o conteúdo vá para o Repositório local.
+4- "git push origin main", empurrará todas as alterações para o repositório na branch principal.
 
 
-Download Makdown: https://www.markdownguide.org/
+
+
+- git status: Verifica status da pasta
+
+
+
 
