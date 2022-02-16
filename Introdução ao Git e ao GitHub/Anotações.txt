@@ -1,0 +1,9 @@
+
+Link para download do Git: https://git-scm.com/download/win
+
+Download GitHub: https://desktop.github.com/
+O Git Bash é um terminal extendido para organizar os arquivos do Git.
+
+
+Download Makdown: https://www.markdownguide.org/
+
